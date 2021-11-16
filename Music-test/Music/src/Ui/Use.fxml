@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ui.SubController">
+   <children>
+      <ImageView fitHeight="592.0" fitWidth="800.0" layoutY="107.0">
+         <image>
+            <Image url="@../image/mudae.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="-6.0" prefHeight="121.0" prefWidth="302.0" text="Music" textFill="#4ebc32">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="-6.0" prefHeight="138.0" prefWidth="514.0" text="-Instructions for use" textFill="#f889a5">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="180.0" text="저희의 프로그램을 이용해 주셔서 감사합니다." textFill="#b7bc1e">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="213.0" text="저희는 리코더, 드럼, 실로폰을 연주 할 수 있는 프로그램 입니다" textFill="#b7bc1e">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="250.0" text="연주는 키보드를 이용 하시면 가능 합니다." textFill="#b7bc1e">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="303.0" prefHeight="74.0" prefWidth="565.0" text="리코더는 낮은 음 부터 순서대로 A, S, D, F, G, H, J, K " textFill="#1eb0ba">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="366.0" prefHeight="74.0" prefWidth="565.0" text="실로폰은 낮은 음 부터 순서대로 Z, X, C, V, B, N, M" textFill="#1eb0ba">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="432.0" prefHeight="74.0" prefWidth="565.0" text="드럼은 악기 옆에 버튼의 악기가 표시 되어 있습니다." textFill="#1eb0ba">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="261.0" layoutY="506.0" text="좋은 연주 하시길 바라겠습니다" textFill="#b7bc1e">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="304.0" layoutY="543.0" prefHeight="22.0" prefWidth="193.0" text="행복한 시간 보내시길." textFill="#b7bc1e">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="exit" fitHeight="86.0" fitWidth="89.0" layoutX="683.0" layoutY="600.0" onMouseClicked="#wayback">
+         <image>
+            <Image url="@../image/스크린샷-2017-09-23-오후-11.58.09.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="683.0" layoutY="565.0" prefHeight="22.0" prefWidth="65.0" text="나가기" textFill="#10f52b">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

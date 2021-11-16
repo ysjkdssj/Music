@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ui.SubController">
+   <children>
+      <ImageView fx:id="start" fitHeight="251.0" fitWidth="240.0" layoutX="500.0" layoutY="37.0" onMouseClicked="#number01" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/9695588bf6b9273f19fdcca2bc256fdc_t.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="start01" fitHeight="185.0" fitWidth="240.0" layoutX="500.0" layoutY="392.0" onMouseClicked="#number02">
+         <image>
+            <Image url="@../image/drum.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="21.0" layoutY="14.0" prefHeight="121.0" prefWidth="302.0" text="Music" textFill="#4ebc32">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="135.0" prefHeight="73.0" prefWidth="388.0" text="리코더, 드럼, 실로폰을 연주 해 보세요" textFill="#59a1b5">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="User" layoutX="21.0" layoutY="208.0" mnemonicParsing="false" onAction="#How" prefHeight="81.0" prefWidth="354.0" text="사용설명(How)" textFill="#e869ac">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="start02" fitHeight="185.0" fitWidth="240.0" layoutX="95.0" layoutY="392.0" onMouseClicked="#number03">
+         <image>
+            <Image url="@../image/logoyogo-1-49.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="529.0" layoutY="229.0" prefHeight="60.0" prefWidth="182.0" text="Recorder">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="563.0" layoutY="592.0" prefHeight="60.0" prefWidth="131.0" text="Drum">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="592.0" prefHeight="60.0" prefWidth="219.0" text="Xylophone">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ui.SubController">
+   <children>
+      <ImageView fx:id="test01" fitHeight="703.0" fitWidth="671.0" focusTraversable="true" layoutX="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/drum.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="86.0" layoutY="34.0" prefHeight="40.0" prefWidth="48.0" text="W키" />
+      <Label layoutX="89.0" layoutY="112.0" prefHeight="19.0" prefWidth="25.0" text="E키" />
+      <Label layoutX="86.0" layoutY="183.0" prefHeight="19.0" prefWidth="31.0" text="R키" />
+      <Label layoutX="86.0" layoutY="252.0" prefHeight="19.0" prefWidth="31.0" text="T키" />
+      <Label layoutX="86.0" layoutY="385.0" prefHeight="19.0" prefWidth="31.0" text="Y키" />
+      <Label layoutX="86.0" layoutY="445.0" prefHeight="19.0" prefWidth="31.0" text="U키" />
+      <Label layoutX="86.0" layoutY="507.0" prefHeight="19.0" prefWidth="31.0" text="I키" />
+      <Label layoutX="86.0" layoutY="575.0" prefHeight="19.0" prefWidth="31.0" text="O키" />
+      <Button fx:id="Back" layoutX="636.0" layoutY="14.0" mnemonicParsing="false" onAction="#Musical" prefHeight="40.0" prefWidth="160.0" text="다른악기">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#0014db" />
+                  <Stop color="#ff2121" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>
