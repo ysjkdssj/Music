@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="more.Maincontroller">
+   <children>
+      <Label layoutX="45.0" layoutY="35.0" text="User's" textFill="#0ffaff">
+         <font>
+            <Font size="66.0" />
+         </font>
+      </Label>
+      <Label fx:id="back5" layoutX="669.0" layoutY="53.0" onMouseClicked="#playout5" text="OUT" textFill="#0ab220">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

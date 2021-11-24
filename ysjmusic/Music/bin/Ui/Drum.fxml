@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ui.SubController">
+   <children>
+      <ImageView fx:id="test01" fitHeight="383.0" fitWidth="468.0" focusTraversable="true" layoutX="235.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/drum.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="701.0" fitWidth="800.0" layoutX="-2.0">
+         <image>
+            <Image url="@../image/piano.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="back1" layoutX="23.0" layoutY="25.0" onMouseClicked="#playout" text="OUT" textFill="#0ab220">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
